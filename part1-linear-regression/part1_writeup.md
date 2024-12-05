@@ -14,4 +14,4 @@ The predicted value according to the model is 137.46.
 
 3. How accurate do you think this model's predictions are?  Do you think this model is accurate enough to reliably predict someone's blood pressure based on their age?  Why or why not?  And if not, what could improve the model?
 
-It is a fairly decent prediction 
+It is a fairly decent prediction and could be used for general purposes but for medical sutff it would probably be best not to use it. To improve the model we could add more data so that the prediction would be more reliable.
