@@ -34,6 +34,7 @@ for index in range(len(xtest)):
     x_coord = xtest[index]
 
 
+
 plt.scatter(xtrain, ytrain, c="blue", label="Training Data")
 plt.scatter(xtest, ytest, c="purple", label="Testing Data")
 
