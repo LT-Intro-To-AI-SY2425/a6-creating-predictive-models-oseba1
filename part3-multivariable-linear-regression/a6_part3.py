@@ -25,28 +25,19 @@ r_squared = round(model.score(x, y),2)
 #Loop through the data and print out the predicted prices and the 
 #actual prices
 
-predict = model.predict(xtest)
-predit = np.around(predict, 2)
-
-for index in range(len(xtest)):
-    actual = ytest[index]
-    predicted_y = predict[index]
-    x_coord = xtest[index]
-
-
-
-plt.scatter(xtrain, ytrain, c="blue", label="Training Data")
-plt.scatter(xtest, ytest, c="purple", label="Testing Data")
-
-plt.scatter(xtest, predict, c="red", label="Predictions")
-
-plt.xlabel("Car")
-plt.ylabel("Price")
-plt.title("Price by Car")
-plt.plot(x, coef*x + intercept, c="r", label="Line of Best Fit")
-
-plt.legend()
-plt.show()
 
 print("***************")
 print("Testing Results")
+
+predict = model.predict(xtest)
+predit = np.around(predict, 2)
+print(f"R Squared value: {r_squared}")
+
+for index in range(len(xtest)):
+    miles = xtest[index]
+    actual = ytest[index]
+    predicted = predict[index]
+    print(f"Age: {float(miles[1])}, Mileage: {float(miles[0])}, Predicted price:{ predicted}, Actual price:{actual}")
+
+
+
