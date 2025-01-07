@@ -12,7 +12,12 @@ Low Income, High Spending
 High Income, Low Spending
 Low Income, Low Spending
 
+They are descriptive are you know what they refer to.
+
 2. What group would a customer who has a medium income and low spending habits be in?
+
+They would probably be closer ot the High Income, Low Spending Group.
 
 3. Choose one cluster of interest to you. How might the marketing team approach this specific customer group?
 
+They might target the High Income, High Spending by appealing to luxury and the idea of exclusivity.
